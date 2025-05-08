@@ -15,6 +15,7 @@ function App() {
     let col = window.getComputedStyle(ele).backgroundColor;
     // console.log(col);
     setTextColor(col);
+    // this line for revesing git 
 
   }
 
