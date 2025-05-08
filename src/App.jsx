@@ -1,4 +1,5 @@
 import { use, useState } from "react"
+import Revise from "./Revise";
 
 function App() {
   const [color,setColor]= useState("pink");
@@ -56,8 +57,9 @@ function App() {
           >yellow</button>
         </div>
       </div>
-    
+     <Revise></Revise>
     </div>
+   
   )
 }
 
